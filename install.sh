@@ -12,7 +12,9 @@ for arg in "$@"; do
     esac
 done
 
-source core/loader.sh
-source core/bootstrap.sh
+export MCI_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+source "${MCI_ROOT}/core/loader.sh"
+source "${MCI_ROOT}/core/bootstrap.sh"
 
 bootstrap
