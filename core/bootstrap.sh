@@ -10,6 +10,8 @@ bootstrap() {
 
     validation_init
 
-    log_success "Framework iniciado."
+   log_success "Framework iniciado."
+
+   main_menu
 
 }

@@ -10,3 +10,4 @@ source lib/environment.sh
 source lib/validation.sh
 
 source "${MCI_ROOT}/lib/services.sh"
+source "${MCI_ROOT}/core/menu.sh"
