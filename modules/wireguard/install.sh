@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
+source "${MCI_ROOT}/modules/wireguard/docker.sh"
+
 wireguard_install() {
 
-    log_info "Iniciando instalação do WireGuard..."
+    install_docker
 
     echo
-    echo "Primeiro módulo do MCI funcionando! 🎉"
+    log_success "Primeira etapa concluída."
     echo
 
 }
